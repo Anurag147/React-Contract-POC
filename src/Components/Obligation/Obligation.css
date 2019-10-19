@@ -1,0 +1,20 @@
+.ObligationData{
+    background-color: #f4511e;
+    width: 200px;
+    min-height: 200px;
+    border: 1px solid #f4511e;
+    box-shadow: 0 2px 3px #f4511e;
+    box-sizing: border-box;
+    margin: 10px 10px 10px 10px;
+    align-content: center;
+    cursor: pointer;
+    float: left; 
+    opacity: 0.8;
+    border-radius: 15px;
+    transition: transform .2s;
+}
+.ObligationData:hover{
+    opacity: 1;
+    -ms-transform: scale(1.1); /* IE 9 */
+    transform: scale(1.1); 
+}
